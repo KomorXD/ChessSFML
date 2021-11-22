@@ -2,7 +2,7 @@
 #include "ResManagers/ResourceHolder.hpp"
 
 App::App(const std::string& fileName)
-	: m_Window({ 1280, 800 }, "Chess by Pawel Kupczak", sf::Style::Titlebar | sf::Style::Close) {
+	: m_Window({ 1280, 800 }, "Chess by Komor", sf::Style::Titlebar | sf::Style::Close) {
 
 	ResourceHolder::Get().AddFont("OpenSans");
 	m_pState = std::make_unique<ChessState>(this, fileName);
