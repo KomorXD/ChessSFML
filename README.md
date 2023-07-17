@@ -1,4 +1,5 @@
 # ChessSFML
+[[FUTURE ME: Back when I made this I did not know how to set up repos correctly, so SFML source is kinda there and there are no project files.]]
 Simple Chess program I amde for my university assignment.  
 You can load pre-config from file with FEN format and play 1 vs 1.  
 There is only 1 game mode, classic 1v1. 
